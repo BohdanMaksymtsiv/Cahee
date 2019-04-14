@@ -123,10 +123,33 @@ textarea {
 .about{
 	background: #00b0b0;
 	height: 700px;
+	/*width: 1500px;*/
+	/*margin: 0 auto;*/
+}
+.about .ba-container{
+	width: 1500px;
 }
 .plate{
 	background: url("../images/raspberry.png") center center no-repeat;
 	height: 644px;
 	width: 650px;
 }
-.about
+.about h2{
+	font-size: 90px;
+	font-weight: 700;
+	color: #ffffff;
+	padding: 180px 0 34px 0;
+	margin: 0;
+}
+.about p{
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 27px;
+	color: #ffffff;
+	margin: 0;
+	width: 500px;
+}
+.about p:last-child{
+	padding-top: 10px;
+}
+
