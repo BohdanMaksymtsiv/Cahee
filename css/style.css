@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
 body{
-
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
 }
 
 /* Typography */
@@ -54,4 +56,77 @@ textarea {
 .ba-container{
 	padding-left: 20px;
 	padding-right: 20px;
+	width: 1170px;
+
 }
+.ba-header{
+	height: 150px;
+	width: 1170px;
+	margin: 0 auto;
+
+}
+.ba-logo{
+	margin-top: 50px;
+}
+.ba-menu ul{
+	list-style: none;
+}
+.ba-menu ul li{
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 0 20px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 110px;
+}
+.ba-menu ul li a{
+	text-decoration: none;
+	color: #262626;
+}
+.ba-menu ul li a:hover{
+	border-top: 2px solid #ff6033;
+	padding-top: 10px;
+}
+.hero{
+	background: url("../images/splash.jpg") center center no-repeat;
+	height: 1000px;
+	margin-top: -150px;
+	color: #262626;
+	position: relative;
+	z-index: -1;
+}
+.hero h1{
+	font-size: 60px;
+	font-weight: 900;
+}
+.hero a{
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #ff6033;
+	margin-top: 40px;
+	padding: 20px 25px;
+	width: 200px;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.6);
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.6);
+}
+.scroll{
+	background: url("../images/scroll.png") center center no-repeat;
+	height: 40px;
+	width: 24px;
+	position: absolute;
+	bottom: 70px;
+	left: calc(50% - 12px);
+}
+.about{
+	background: #00b0b0;
+	height: 700px;
+}
+.plate{
+	background: url("../images/raspberry.png") center center no-repeat;
+	height: 644px;
+	width: 650px;
+}
+.about
